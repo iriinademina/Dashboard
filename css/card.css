@@ -1,0 +1,35 @@
+.card {
+    padding: 10px 8px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    flex-basis: 300px;
+    margin-bottom: 15px;
+  }
+  
+  .card_module {
+    padding: 10px;
+    min-height: 200px;
+  }
+  
+  .card_link {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 10px 5px;
+    text-decoration: none;
+    background-color: rgba(108, 117, 125, 0.3);
+    padding: 12px 40px 12px 40px;
+    color: inherit;
+    border-left-color: #6c757d;
+    border-left-width: 5px;
+  }
+  
+  .card_link:hover {
+    background-color: rgba(140, 129, 129, 1);
+    border: none;
+    background-color: rgba(32, 201, 151, 0.6);
+    transition: all 0.5s ease;
+    box-shadow: 1px 1px #20c997, 2px 2px #20c997, 3px 3px #20c997;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  

@@ -1,0 +1,11 @@
+
+.header_search {
+    border: 1px inset blue;
+    background-color: azure;
+    padding: 5px 10px;
+}
+
+input[type="text"] {
+    background-color:#9ecee6;
+    outline: none;
+ }

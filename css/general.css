@@ -1,0 +1,12 @@
+/* импортируем файлы css */
+@import url("base.css");
+@import url("card.css");
+@import url("dashboard.css");
+@import url("scrollbar.css");
+@import url("main.css");
+@import url("header.css");
+@import url("status.css");
+@import url("sidebar.css");
+@import url("search.css");
+/* @import url("_icon_search.css"); */
+
