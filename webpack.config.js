@@ -1,5 +1,6 @@
 const path = require ( 'path' )
 
+
 module.exports = {
    entry: { main: './js/script.js' },
    output: {
@@ -8,18 +9,25 @@ module.exports = {
    },
    module: {
       rules: [
-        {
-            test: /\.js$/,
-            loader:'babel-loader'
-          //  exclude: '/node_modules/'
-        },
+      //   {
+      //       test: /\.js$/,
+      //       loader:'babel-loader'
+      //     //  exclude: '/node_modules/'
+      //   },
          {
             test: /\.css$/,
             use: [
                'style-loader',
                'css-loader'
             ]
+         },
+         
+         {
+               test: /\.html$/,
+               use: [ "html-loader" ]
          }
+   
       ]
-   }
+   },
+
 }
