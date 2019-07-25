@@ -4,6 +4,7 @@ import App from "./App";
 import getData from "./serviсe";
 
 let cardModule = Array.from(document.getElementsByClassName("card"));
+/*  -- - -- - -*/
 console.log(cardModule);
 cardModule.forEach(item => (item.onclick = addSidebar));
 
