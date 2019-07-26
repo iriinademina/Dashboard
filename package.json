@@ -4,18 +4,19 @@
   "description": "",
   "main": "start.js",
   "scripts": {
-    "dev": "webpack --mode development ./js/script.js --output ./build/index.js --watch",
+    "start:dev": "webpack --mode development ./js/script.js --output ./build/index.js --watch",
     "build": "webpack --mode production ./js/script.js --output ./build/index.js --watch"
+    
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-plugin-transform-runtime": "^6.23.0",
     "css-loader": "^3.1.0",
     "html-loader": "^0.5.5",
     "style-loader": "^0.23.1",
     "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
    }
 }
 
