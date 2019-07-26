@@ -1,139 +1,80 @@
-import app from '../components/App/app.html'
-import course from '../components/Course/course.html'
-
-
+import app from "../components/App/app.html";
+import course from "../components/Course/course.html";
+import module from "../components/Module/module.html";
+import stage from "../components/Stage/stage.html";
+import { runInThisContext } from "vm";
 class App {
+  constructor() {
+    let container = document.getElementsByClassName("gen-wrapper")[0];
+    container.innerHTML = `${app}`;
+    document.querySelector(".wrapper").innerHTML = `${course}`;
+  }
 
-    constructor() {
-        let container = document.getElementsByClassName("gen-wrapper")[0]
-        container.innerHTML = `${app}`
-        document.querySelector(".wrapper").innerHTML = `${course}`
-    }
-
-    render() {
-       return this.container
-    }
-
+  render() {
+    return this.container;
+  }
 }
 
 //classes
-
-class HeaderWrapper {
-    render() {
-      const container = document.getElementsByClassName("gen-wrapper")[0];
-      container.innerHTML = `${header}${wrapper}`;
-      return container;
-    }
+class Stage {
+  constructor() {
+    this.title = title;
+    this.key = key;
+    this.courses = [];
+    this.stage = null;
   }
-  
-  class Sidebar {
-    constructor(courseTitle, courseModules) {
-      this.header = courseTitle;
-    }
-    renderSidebar() {
-        
-    }
-    render() {
-
-    }
-    clear() {
-      this.courses = [];
-      this.element.innerHTML = "";
-    }
+  renderStage() {
+    this.stageElement = `${stage}`;
+    this.stageElement.id = this.key;
+    const stageTitle = stage.getElementsByClassName("column__header");
+    stageTitle.textContent = this.title;
+    return this.stageElement;
   }
-  class Dashboard {
-    constructor(data) {
-      this.stages = [];
-      this.element = this.renderDashboard();
-    }
-    renderDashboard() {
-      const bodyContainer = document.getElementsByClassName("wrapper")[0];
-      const main = document.createElement("main");
-      main.classList.add("main");
-      bodyContainer.append(main);
-    }
-    renderDashboard() {}
-    render() {}
+  render(coursesData) {
+    this.courses = coursesData.map(
+      stageData => new Course(coursesData.guid, coursesData.title)
+    );
+    const courseElements = this.courses.map(
+      courseItem => courseItem.coursElement
+    );
+    this.stage.append(...courseElements);
   }
-  class Stage {
-    constructor(data) {}
-    renderStage(title, key) {
-      /* --------------- */
-      const divStage = document.createElement("div");
-      divStage.classList.add("column");
-      divStage.classList.add(key);
-      /* --------------- */
-      const divStageHeaderElem = document.createElement("div");
-      divStageHeaderElem.classList.add("column__header");
-      /* --------------- */
-      const divStageHeaderText = document.createElement("h3");
-      divStageHeaderText.textContent = title;
-      divStage.append(divStageHeaderElem);
-      divStageHeaderElem.append(divStageHeaderText);
-    }
-    clear() {
-      this.courses = [];
-      this.element.innerHTML = "";
-    }
+}
+class Course {
+  constructor() {
+    this.guid = guid;
+    this.title = title;
+    this.modules = modules;
+    this.courseElement = null;
   }
-  class Course {
-    constructor(title, guid, module) {
-      this.guid = guid;
-      this.title = data.title;
-      this.element = this.renderCourse(data.title);
-      //  this.render(data.modules);
-      this.modules = [];
-    }
-    renderCourse() {
-      const divCourse = renderCard(this.guid);
-      const divCourseTitle = renderCardsTitle(this.title);
-      const dvCardContainer = renderCardModules();
-      divCourse.append(divCourseTitle);
-      divCourse.append(divCardContainer);
-    }
-    renderCard(guid) {
-      const divCourse = document.createElement("div");
-      divCourse.classList.add("card");
-      divCourse.dataset.guid = guid;
-      return divCourse;
-    }
-    renderCardsTitle(title) {
-      const divCourseTitle = document.createElement("card__title");
-      divCourseTitle.classList.add("card__title");
-      divCorserTitle.textContent = title;
-      divCourse.append(divCourseTitle);
-      return divCourseTitle;
-      /*   
-      divCourseTitleText = document.createElement("h3");
-      divCourseTitleText.textContent = title;
-       */
-    }
-    renderCardModules() {
-      const divCardContainer = document.createElement("div");
-      divCardContainer.classList.add("cards");
-      return divCardContainer;
-    }
-    render(modulesData) {
-      this.modules = modulesData.map(
-        (moduleData = new Module(data.title, data.guid))
-      );
-      let moduleElements = this.modules.map(moduleItem => moduleItem.element);
-      this.element.append(...moduleElements);
-    }
+  renderElement() {
+    this.courseElement = `${course}`;
+    this.courseElement.id = this.guid;
+    const courseTitle = course.getElementsByClassName("card__title")[0];
+    courseTitle.textContent = this.title;
+    return this.courseElement;
   }
-  class Module {
-    constructor(title, guid) {
-      this.title = title;
-      this.guid = guid;
-      this.moduleElement = this.renderModule;
-    }
-    renderModule(title, guid) {
-      const div = document.createElement("div");
-      div.classList.add("card__module");
-      div.dataset.guid = guid;
-      div.textContent = title;
-      return div;
-    }
+  render(modulesData) {
+    this.modules = modulesData.map(
+      modulData => new Module(modulData.title, modulData.guid)
+    );
+    const modulElements = this.modules.map(
+      moduleItem => moduleItem.modulElement
+    );
+    this.courseElement.append(...modulElements);
   }
-
-  export default App
+}
+class Module {
+  constructor() {
+    this.title = title;
+    this.guid = guid;
+    this.modulElement = null;
+  }
+  renderModule() {
+    this.modulElement = `${module}`;
+    this.modulElement.textContent = this.title;
+    this.modulElement.id = this.guid;
+    return this.modulElement;
+  }
+}
+export default App;
