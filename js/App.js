@@ -30,7 +30,12 @@ class HeaderWrapper {
     constructor(courseTitle, courseModules) {
       this.header = courseTitle;
     }
-    renderSidebar() {}
+    renderSidebar() {
+        
+    }
+    render() {
+
+    }
     clear() {
       this.courses = [];
       this.element.innerHTML = "";
