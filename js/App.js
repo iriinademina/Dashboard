@@ -2,12 +2,13 @@ import app from "../components/App/app.html";
 import course from "../components/Course/course.html";
 import module from "../components/Module/module.html";
 import stage from "../components/Stage/stage.html";
+import dashboard from "../components/Dashboard/dashboard.html";
 import { runInThisContext } from "vm";
 class App {
   constructor() {
     let container = document.getElementsByClassName("gen-wrapper")[0];
     container.innerHTML = `${app}`;
-    document.querySelector(".wrapper").innerHTML = `${course}`;
+    document.querySelector(".wrapper").innerHTML = `dashboard`;
   }
 
   render() {
@@ -16,19 +17,38 @@ class App {
 }
 
 //classes
+class Dashboard {
+  constructor() {
+    this.dashboardElem = null;
+    this.stages = [];
+  }
+  render(stagesData) {
+    this.dashboardElement = `${dashboard}`;
+    this.dashboardElem = this.dashboardElement;
+    this.stages = stagesData.map(
+      dashData => new Stage(stagesData.guid, stagesData.title)
+    );
+    const stageElements = this.stages.map(stageItem => stageItem.stageElement);
+    this.stageElem.append(...stageElements);
+  }
+  clear() {
+    this.stages = [];
+    this.dashboardElem.innerHTML = "";
+  }
+}
 class Stage {
   constructor() {
     this.title = title;
     this.key = key;
     this.courses = [];
-    this.stage = null;
+    this.stageElem = null;
   }
   renderStage() {
     this.stageElement = `${stage}`;
     this.stageElement.id = this.key;
     const stageTitle = stage.getElementsByClassName("column__header");
     stageTitle.textContent = this.title;
-    return this.stageElement;
+    this.stageElem = this.stageElement;
   }
   render(coursesData) {
     this.courses = coursesData.map(
@@ -37,7 +57,11 @@ class Stage {
     const courseElements = this.courses.map(
       courseItem => courseItem.coursElement
     );
-    this.stage.append(...courseElements);
+    this.stageElem.append(...courseElements);
+  }
+  clear() {
+    this.courses = [];
+    this.stageElem.innerHTML = "";
   }
 }
 class Course {
@@ -48,11 +72,11 @@ class Course {
     this.courseElement = null;
   }
   renderElement() {
-    this.courseElement = `${course}`;
-    this.courseElement.id = this.guid;
+    this.courseElem = `${course}`;
+    this.courseElem.id = this.guid;
     const courseTitle = course.getElementsByClassName("card__title")[0];
     courseTitle.textContent = this.title;
-    return this.courseElement;
+    this.coursElement = this.courseElem;
   }
   render(modulesData) {
     this.modules = modulesData.map(
