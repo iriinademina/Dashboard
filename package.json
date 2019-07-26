@@ -6,7 +6,6 @@
   "scripts": {
     "start:dev": "webpack --mode development ./js/script.js --output ./build/index.js --watch",
     "build": "webpack --mode production ./js/script.js --output ./build/index.js --watch"
-    
   },
   "author": "",
   "license": "ISC",
