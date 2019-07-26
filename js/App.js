@@ -8,7 +8,7 @@ class App {
   constructor() {
     let container = document.getElementsByClassName("gen-wrapper")[0];
     container.innerHTML = `${app}`;
-    document.querySelector(".wrapper").innerHTML = `dashboard`;
+    document.querySelector(".wrapper").innerHTML = `${dashboard}`;
   }
 
   render() {
