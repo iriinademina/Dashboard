@@ -15,8 +15,10 @@
     "html-loader": "^0.5.5",
     "style-loader": "^0.23.1",
     "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.7.2"
-   }
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@babel/runtime": "^7.5.5"
+  }
 }
-

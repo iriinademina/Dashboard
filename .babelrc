@@ -1,10 +1,11 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> a29a35a1acd3a8a5df56c834b8ad6990c622ec9d
 {
-    "presets" : [
-        "@babel/preset-env"
-    ],
+  "presets": ["@babel/preset-env"],
 
-    "plugins": [
+  "plugins": [
     [
       "@babel/plugin-transform-runtime",
       {
