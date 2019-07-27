@@ -17,7 +17,9 @@ class App {
     constructor () {
     let container = document.getElementsByClassName("gen-wrapper")[0];
     container.innerHTML = `${app}`;
-    document.getElementsByClassName("wrapper")[0].innerHTML = `${dashboard}${course}`
+    document.getElementsByClassName("wrapper")[0].innerHTML = 
+          `${dashboard}${course}`
+    // document.getElementsByClassName("card")[0].innerHTML = `${module}`
     }
     init() {
         getData().then (data => {
@@ -36,7 +38,7 @@ class App {
             // console.log(cards[0].modules)
 
             // new Module(modules[0].moduleTitle,modules[0].guid).render()
-            new Course (cards[0].courseTitle,cards[0].guid).render(cards[0].modules)
+            new Course (cards[1].courseTitle,cards[1].guid).render(cards[1].modules)
 
         }
      )
@@ -44,17 +46,14 @@ class App {
 }
 
 class Module {
-    constructor(moduleTitle,guid) {
+    constructor(moduleTitle,guid,i) {
         this.title = moduleTitle;
         this.guid = guid;
         this.modulElement = null;
-       
+        this.i = i
     }
     render() {
         this.modulElement =`${module}`;
-        let module1 = document.querySelector('.card__module')
-        module1.textContent = this.title;
-        module1.id = this.guid;
         return this.modulElement;
     }
 }
@@ -72,14 +71,13 @@ class Course {
       const cardsMods = document.getElementsByClassName('cards')[0];
       //   card.id = this.guid;
       cardTitle.textContent = this.title;
-    //   let obj = Object.assign ({},{title:moduleTitle,guid:guid})
-      modules.forEach((i) => {
-        //  console.log(i)
-          new Module(i.moduleTitle,i.guid).render()
+      modules.forEach((item,index) => { 
+          let card = new Module(item.moduleTitle,item.guid).render()
+          cardsMods.innerHTML += card
+          document.querySelectorAll('.card__module')[index].textContent = item.moduleTitle
       });
-    //   console.log(modulesElem)
-    //   cardsMods.innerHTML = `${module}`;
-      return this.courseElem;
+       console.log(modules)
+       return this.courseElem;
     }
   }
   
