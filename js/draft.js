@@ -1,4 +1,4 @@
-
+import getData from "./serviсe";
 export class App {
   init() {
     const data = getData();
