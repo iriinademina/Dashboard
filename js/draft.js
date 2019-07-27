@@ -1,13 +1,11 @@
-export async function getData() {
-  return await fetch("cardsDataSortedByStages.json");
-}
+
 export class App {
   init() {
     const data = getData();
     let container = document.getElementsByClassName("gen-wrapper")[0];
     container.innerHTML = `${app}`;
 
-    new Dashboard().render(data);
+    new Dashboard().render(data)
   }
 }
 
@@ -45,13 +43,13 @@ export class Stage {
 
 export class Course {
   constructor() {
-    this.guid = guid;
+    this.key = key;
     this.title = title;
     this.elem = elem;
   }
   render(cardData) {
     this.elem.innerHTML = `${course}`;
-    this.elem.id = this.guid;
+    this.elem.id = this.key;
     this.elem.textContent = title;
     modulesElem = modules.forEach(i => {
       new Module().render(i);

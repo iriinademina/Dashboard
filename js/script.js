@@ -5,7 +5,7 @@ import getData from "./serviсe";
 import module from "../components/Module/module.html";
 import app from "../components/App/app.html";
 import dashboard from "../components/Dashboard/dashboard.html";
-
+import Course from "./draft";
 
 let cardModule = Array.from(document.getElementsByClassName("card"));
 /*  -- - -- - -*/
@@ -39,7 +39,7 @@ class Module {
         this.guid = guid;
         this.modulElement = null;
     }
-    render(module) {
+    render(moduleData) {
         this.modulElement =`${module}`;
         let module = document.getElementsByClassName('card__module')[0];
         module.textContent = this.title;
@@ -50,3 +50,6 @@ class Module {
 
 let all = new App()
 all.init()
+
+
+
