@@ -5,17 +5,17 @@ import stage from "../components/Stage/stage.html";
 import dashboard from "../components/Dashboard/dashboard.html";
 import sidebar from "../components/SideBar/sidebar.html";
 import { runInThisContext } from "vm";
-class App {
-  constructor() {
-    let container = document.getElementsByClassName("gen-wrapper")[0];
-    container.innerHTML = `${app}`;
-    document.querySelector(".wrapper").innerHTML = `${dashboard}`;
-  }
+// class App {
+//   constructor() {
+//     let container = document.getElementsByClassName("gen-wrapper")[0];
+//     container.innerHTML = `${app}`;
+//     document.querySelector(".wrapper").innerHTML = `${dashboard}`;
+//   }
 
-  render() {
-    return this.container;
-  }
-}
+//   render() {
+//     return this.container;
+//   }
+// }
 
 //classes
 class Sidebar {
