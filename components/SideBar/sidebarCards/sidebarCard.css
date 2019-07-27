@@ -1,0 +1,25 @@
+
+.sidebar__card {
+  width: 100%;
+  font-weight: 600;
+  background-color: #f0f0f0;
+  color: #575757;
+
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.sidebar__card-title {
+  text-transform: uppercase;
+}
+.sidebar__card-stage {
+  text-transform: lowercase;
+}
+.sidebar__card:hover {
+  background: #ddf3ef;
+  color: #00a79a;
+  cursor: pointer;
+}
