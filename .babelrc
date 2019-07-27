@@ -1,20 +1,13 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> a29a35a1acd3a8a5df56c834b8ad6990c622ec9d
 {
   "presets": ["@babel/preset-env"],
 
   "plugins": [
     [
       "@babel/plugin-transform-runtime",
-      {
-        // "absoluteRuntime": false,
-        // "corejs": false,
-        // "helpers": true,
+      { 
         "regenerator": true
-        // "useESModules": false
+        
       }
     ]
-  ]
+ ]
 }

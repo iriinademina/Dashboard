@@ -4,17 +4,17 @@ import module from "../components/Module/module.html";
 import stage from "../components/Stage/stage.html";
 import dashboard from "../components/Dashboard/dashboard.html";
 import { runInThisContext } from "vm";
-class App {
-  constructor() {
-    let container = document.getElementsByClassName("gen-wrapper")[0];
-    container.innerHTML = `${app}`;
-    document.querySelector(".wrapper").innerHTML = `${dashboard}`;
-  }
+// class App {
+//   constructor() {
+//     let container = document.getElementsByClassName("gen-wrapper")[0];
+//     container.innerHTML = `${app}`;
+//     document.querySelector(".wrapper").innerHTML = `${dashboard}`;
+//   }
 
-  render() {
-    return this.container;
-  }
-}
+//   render() {
+//     return this.container;
+//   }
+// }
 
 //classes
 class Dashboard {
@@ -94,9 +94,9 @@ class Module {
     this.guid = guid;
     this.modulElement = null;
   }
-  renderModule() {
+  renderModule(moduleData) {
     this.modulElement = `${module}`;
-    this.modulElement.textContent = this.title;
+    this.modulElement.textContent = moduleData.moduleTitle;
     this.modulElement.id = this.guid;
     return this.modulElement;
   }
