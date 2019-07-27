@@ -1,0 +1,1702 @@
+{
+	"stages": [
+		{
+			"title": "In progress",
+			"key": "in_progress",
+			"courses": [
+				{
+					"guid": "9af8404f-466b-4c7b-a0d7-f9a81b2c222c",
+					"title": "Home Loan Account",
+					"modules": [
+						{
+							"guid": "c532e54c-afd1-4bab-8a8e-7e798b20b07c",
+							"title": "Iceland Krona"
+						},
+						{
+							"guid": "555b59af-6bab-4f7f-b1f4-bbaba290993f",
+							"title": "Dalasi"
+						},
+						{
+							"guid": "2b4eea1b-7300-4015-9acc-4140f71ee848",
+							"title": "Armenian Dram"
+						},
+						{
+							"guid": "1553b9b4-3c78-4a54-9d4c-2461e1bf0866",
+							"title": "Russian Ruble"
+						}
+					]
+				},
+				{
+					"guid": "9bd1d314-6198-4171-98f5-69d8fce0b5a8",
+					"title": "Investment Account",
+					"modules": [
+						{
+							"guid": "92bccd0c-d41c-404c-afd6-32723925abe3",
+							"title": "Iranian Rial"
+						},
+						{
+							"guid": "6dad0ef4-e25a-4d8d-8c56-d57f55b48aae",
+							"title": "Saudi Riyal"
+						},
+						{
+							"guid": "ee8113b9-743e-4b6b-b4f6-2e5f7bd83331",
+							"title": "Kuwaiti Dinar"
+						},
+						{
+							"guid": "c1b617e1-5ad3-41cb-ac86-85bc7a288f44",
+							"title": "Forint"
+						}
+					]
+				},
+				{
+					"guid": "5c33c2be-10db-4a75-84d2-b66766c8ce90",
+					"title": "Personal Loan Account",
+					"modules": [
+						{
+							"guid": "8650a8d1-8e7d-4126-89af-75214105e184",
+							"title": "Boliviano Mvdol"
+						},
+						{
+							"guid": "b293431e-bb42-497c-a599-e238c63b1f8e",
+							"title": "Ouguiya"
+						},
+						{
+							"guid": "91e34517-878b-4b2d-a1e3-4df5d43778c8",
+							"title": "Kyat"
+						},
+						{
+							"guid": "316393d4-6570-41e2-9f98-a92f97e3a40d",
+							"title": "Pula"
+						}
+					]
+				},
+				{
+					"guid": "fc0a6920-d430-40e0-934d-167eb62b3e7a",
+					"title": "Investment Account",
+					"modules": [
+						{
+							"guid": "5b30bd8e-59b2-44d3-a63a-03b161f0af37",
+							"title": "Aruban Guilder"
+						},
+						{
+							"guid": "3ab737c9-ef9c-4b33-8be3-c93a61767827",
+							"title": "Australian Dollar"
+						},
+						{
+							"guid": "d6401bce-2922-47db-91af-de24757231d7",
+							"title": "Lek"
+						},
+						{
+							"guid": "798ab662-1374-4b9f-84d0-c5dc21453ab4",
+							"title": "Jamaican Dollar"
+						}
+					]
+				},
+				{
+					"guid": "21c15512-521e-4ac0-8512-3bc4fdf92804",
+					"title": "Savings Account",
+					"modules": [
+						{
+							"guid": "30f4c524-361e-4609-a139-7ff553a035f4",
+							"title": "Guinea Franc"
+						},
+						{
+							"guid": "7ed70593-8981-4d30-9790-ec37c157d41d",
+							"title": "Taka"
+						},
+						{
+							"guid": "fb565444-7199-4736-9753-9df8aa855f0b",
+							"title": "Uzbekistan Sum"
+						},
+						{
+							"guid": "b50400b7-e7a1-4880-95c1-d0d33ed4585f",
+							"title": "Cordoba Oro"
+						},
+						{
+							"guid": "e90c3d28-e006-42c9-abc2-2a3309c54abf",
+							"title": "Balboa US Dollar"
+						},
+						{
+							"guid": "059ca9ca-f3bc-4069-9e91-c0dfc9b82c52",
+							"title": "Cuban Peso Peso Convertible"
+						}
+					]
+				},
+				{
+					"guid": "9a5ef9f9-9ec5-4a60-8b09-1f00d0811e51",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "276503b8-404b-4632-a653-ae2c5a3fb166",
+							"title": "Kwacha"
+						},
+						{
+							"guid": "811a7636-6394-4a2d-b219-a6104f5f8362",
+							"title": "Peso Uruguayo Uruguay Peso en Unidades Indexadas"
+						},
+						{
+							"guid": "a4dc63c7-09f5-49e6-825f-2392a53c787a",
+							"title": "Falkland Islands Pound"
+						},
+						{
+							"guid": "26f3472d-0cc5-4131-a641-fff1e519fcce",
+							"title": "CFA Franc BEAC"
+						},
+						{
+							"guid": "bf505474-845c-477c-887c-18be97d8bc45",
+							"title": "European Unit of Account 17(E.U.A.-17)"
+						},
+						{
+							"guid": "fd52317a-4e9d-494d-9eb0-89a37fc38e58",
+							"title": "Costa Rican Colon"
+						},
+						{
+							"guid": "a054b60a-b59a-4f6c-a9dd-a913a236e6bd",
+							"title": "Baht"
+						},
+						{
+							"guid": "51bbcc37-49b2-48bc-a995-e017192658e4",
+							"title": "CFP Franc"
+						},
+						{
+							"guid": "4e47bc41-a20a-4454-98a2-a341f62522f5",
+							"title": "New Leu"
+						},
+						{
+							"guid": "d2699205-7222-4c9f-bf4e-a9a19adcb287",
+							"title": "Netherlands Antillian Guilder"
+						}
+					]
+				},
+				{
+					"guid": "e784b571-7216-434a-a25a-6139724bb6c3",
+					"title": "Investment Account",
+					"modules": [
+						{
+							"guid": "87dc482b-52da-4c87-9b3e-7bf9bd81ca88",
+							"title": "European Unit of Account 9(E.U.A.-9)"
+						},
+						{
+							"guid": "d790c865-ac4c-485a-87ae-2461072ffb08",
+							"title": "Bahamian Dollar"
+						},
+						{
+							"guid": "ca39722f-ee31-46f4-be7c-b8927ce0d9a7",
+							"title": "Russian Ruble"
+						},
+						{
+							"guid": "cab91141-75b6-4aad-a02c-4c319febfff2",
+							"title": "Balboa US Dollar"
+						},
+						{
+							"guid": "040521f3-805f-4c5e-9201-a4874759124a",
+							"title": "Solomon Islands Dollar"
+						},
+						{
+							"guid": "5807e45a-6860-4d4c-a91d-954230947b09",
+							"title": "Comoro Franc"
+						},
+						{
+							"guid": "9897a21d-6e1b-4dff-9199-a2f5a62f3db6",
+							"title": "Cape Verde Escudo"
+						}
+					]
+				},
+				{
+					"guid": "437ad9fc-2c11-4b23-ab89-11a730ea35a4",
+					"title": "Savings Account",
+					"modules": [
+						{
+							"guid": "02705ebb-cb25-4079-a4ec-01a66bc79b70",
+							"title": "Tenge"
+						},
+						{
+							"guid": "3216255f-4278-4bfa-a94e-b32e65bd9ccc",
+							"title": "Chilean Peso Unidades de fomento"
+						},
+						{
+							"guid": "523561a1-2680-415d-8d3c-898d40b56fd3",
+							"title": "Kroon"
+						}
+					]
+				},
+				{
+					"guid": "c6737fd5-a3e5-44a2-a73b-0761352cb684",
+					"title": "Personal Loan Account",
+					"modules": [
+						{
+							"guid": "ffd2e677-aa84-49df-9fa3-859e2f002d2f",
+							"title": "Uzbekistan Sum"
+						},
+						{
+							"guid": "67acd9c7-7121-4201-ae25-8d20cb1c552c",
+							"title": "Rwanda Franc"
+						},
+						{
+							"guid": "102587e3-eec0-4620-bc64-75515f0642ed",
+							"title": "Dong"
+						},
+						{
+							"guid": "77eff5ef-6d65-4b20-933f-788f3b4e6f19",
+							"title": "Kuwaiti Dinar"
+						},
+						{
+							"guid": "26d90305-84b5-4fda-9b72-433465a11ed0",
+							"title": "Costa Rican Colon"
+						},
+						{
+							"guid": "39758f82-afe1-4bfc-bd45-810393522a6f",
+							"title": "Zimbabwe Dollar"
+						},
+						{
+							"guid": "6be90a38-e301-479f-8c27-152f68f8ffeb",
+							"title": "Turkish Lira"
+						},
+						{
+							"guid": "1044c513-a689-401c-8512-0ce418cfd9e6",
+							"title": "Czech Koruna"
+						},
+						{
+							"guid": "78f94716-cc06-463d-af49-9e783b340d19",
+							"title": "Burundi Franc"
+						}
+					]
+				},
+				{
+					"guid": "ba317189-e1ae-43ad-a748-3d0f13195fd1",
+					"title": "Checking Account",
+					"modules": [
+						{
+							"guid": "fb2aec9a-91f5-4af2-be39-897845512f3a",
+							"title": "CFP Franc"
+						},
+						{
+							"guid": "c4968330-b383-463e-9831-694adcc0063a",
+							"title": "Iranian Rial"
+						},
+						{
+							"guid": "3bad5972-01d5-42b9-b96e-956f01996837",
+							"title": "Algerian Dinar"
+						},
+						{
+							"guid": "f1bf5768-70f6-4b7f-ac14-9597c4fb1663",
+							"title": "Australian Dollar"
+						},
+						{
+							"guid": "8be7e4c5-3cdf-4d17-a60d-9f391ba70ae4",
+							"title": "Rupiah"
+						},
+						{
+							"guid": "af3294a5-df16-43d8-a9fd-02f238a8eda9",
+							"title": "Mexican Peso Mexican Unidad de Inversion (UDI)"
+						},
+						{
+							"guid": "60f800fc-80d8-46e1-a20f-9415735dc499",
+							"title": "Swedish Krona"
+						},
+						{
+							"guid": "d3e47a01-2a00-40a3-ad32-14dec268f4ec",
+							"title": "Czech Koruna"
+						},
+						{
+							"guid": "c38024f0-dead-4deb-8022-7b5d4292da06",
+							"title": "Nuevo Sol"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Submitted",
+			"key": "submitted",
+			"courses": [
+				{
+					"guid": "890fd0be-83f0-4697-894c-54723cc9dd5b",
+					"title": "Savings Account",
+					"modules": [
+						{
+							"guid": "6f691ab3-bde7-4052-9cc1-b7a018cafb4a",
+							"title": "Convertible Marks"
+						},
+						{
+							"guid": "e795ac5e-40da-4309-ad92-58640a095406",
+							"title": "Tala"
+						},
+						{
+							"guid": "8792cdc9-e0e3-4cc9-86ce-0ae2ff4720b2",
+							"title": "Swiss Franc"
+						},
+						{
+							"guid": "ee24398a-e6d4-422d-8f77-1c0ce4914400",
+							"title": "Chilean Peso Unidades de fomento"
+						},
+						{
+							"guid": "b2d396ae-b21d-44e4-9389-f122ade487ce",
+							"title": "Rupiah"
+						},
+						{
+							"guid": "e447fab9-c09a-4bf8-b8ba-6a3fd9eef539",
+							"title": "Moldovan Leu"
+						},
+						{
+							"guid": "f941b589-22ad-4252-8284-df5837f6ac6a",
+							"title": "Moldovan Leu"
+						}
+					]
+				},
+				{
+					"guid": "630868ac-f0df-4411-9276-29e63a4fe32d",
+					"title": "Auto Loan Account",
+					"modules": [
+						{
+							"guid": "13d70642-e68c-4cb6-93bd-82e4a4f77ca1",
+							"title": "Peso Uruguayo Uruguay Peso en Unidades Indexadas"
+						},
+						{
+							"guid": "f6b2e317-09d0-4d91-9918-123f05296043",
+							"title": "Barbados Dollar"
+						},
+						{
+							"guid": "a3b46217-fe2c-42d1-86d0-cfc828d67aff",
+							"title": "Zambian Kwacha"
+						},
+						{
+							"guid": "5a9e467d-b4ba-46c9-8e02-4170270b939a",
+							"title": "Jamaican Dollar"
+						},
+						{
+							"guid": "66c1d2d9-1f09-4b68-9edd-a806765846c5",
+							"title": "Mauritius Rupee"
+						},
+						{
+							"guid": "6812cea7-6b03-4005-9acc-8b936eeafad0",
+							"title": "Rand Namibia Dollar"
+						}
+					]
+				},
+				{
+					"guid": "7891017d-0d30-4a1a-8a4c-93aeb5b4c739",
+					"title": "Home Loan Account",
+					"modules": [
+						{
+							"guid": "0726f371-3cf5-41a6-b56b-8d4f41d8fa0f",
+							"title": "Kwanza"
+						},
+						{
+							"guid": "82e026a0-e782-4dbf-a684-c84fa70f3d88",
+							"title": "Riel"
+						},
+						{
+							"guid": "dd59a179-7e37-4d28-b107-3503bac9a4db",
+							"title": "Malaysian Ringgit"
+						},
+						{
+							"guid": "9cb9ba2f-8a9a-415b-87f7-78848df5b192",
+							"title": "New Zealand Dollar"
+						},
+						{
+							"guid": "9618395e-6290-4ec4-89ae-72ea0da41507",
+							"title": "Netherlands Antillian Guilder"
+						},
+						{
+							"guid": "b7664a44-bb5b-4b78-96b2-55ccd82510fe",
+							"title": "Kuwaiti Dinar"
+						},
+						{
+							"guid": "bce6e259-0948-4485-aaf6-5a68b0708ef5",
+							"title": "Solomon Islands Dollar"
+						},
+						{
+							"guid": "91c4e055-5c82-4d64-b929-05cd30d23815",
+							"title": "Somali Shilling"
+						},
+						{
+							"guid": "183ee8f7-67c2-4b1e-ae5f-a8e8c16b3557",
+							"title": "Libyan Dinar"
+						},
+						{
+							"guid": "3e0f97fd-1bf3-4eb4-8837-3d0e5a18a355",
+							"title": "Quetzal"
+						}
+					]
+				},
+				{
+					"guid": "698190b5-407a-49b6-b1c1-9612725c0d5f",
+					"title": "Investment Account",
+					"modules": [
+						{
+							"guid": "af3af552-3a8f-4ad6-b9e4-91abd61d1751",
+							"title": "Platinum"
+						},
+						{
+							"guid": "696c7060-d6d6-4f48-b152-9e02c051da99",
+							"title": "Australian Dollar"
+						},
+						{
+							"guid": "d36ba587-7156-4be1-b1e0-50705d19b65a",
+							"title": "Rufiyaa"
+						},
+						{
+							"guid": "e6d76420-82ee-4ae6-af1a-6ee597e0b59f",
+							"title": "Lebanese Pound"
+						},
+						{
+							"guid": "da20e319-2eef-4310-ba4c-b66d6e3d5db1",
+							"title": "Naira"
+						},
+						{
+							"guid": "d1212bc9-9e97-4d3c-a8dd-f02779ec4cfb",
+							"title": "Fiji Dollar"
+						}
+					]
+				},
+				{
+					"guid": "f6616a35-4430-4777-876f-06fa97d95c18",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "57677785-f336-48c0-9429-5f448fd2e639",
+							"title": "Latvian Lats"
+						},
+						{
+							"guid": "3cf4ff76-dac6-404e-b2f7-3cfc1555f13b",
+							"title": "New Israeli Sheqel"
+						},
+						{
+							"guid": "1db8ce51-dba8-43e4-929f-1d1a39c00cde",
+							"title": "Azerbaijanian Manat"
+						},
+						{
+							"guid": "9798822a-24fe-4ddd-b755-613a08d20953",
+							"title": "El Salvador Colon US Dollar"
+						}
+					]
+				},
+				{
+					"guid": "e784b571-7216-434a-a25a-6139724bb6c3",
+					"title": "Investment Account",
+					"modules": [
+						{
+							"guid": "546029f7-180f-433c-aab4-0226c1392c24",
+							"title": "Pound Sterling"
+						},
+						{
+							"guid": "71dd5271-4198-45e6-b73e-fb1f3787eff6",
+							"title": "Rand Loti"
+						},
+						{
+							"guid": "bfbba961-367b-42a8-847d-0b620acb5ce2",
+							"title": "Iraqi Dinar"
+						},
+						{
+							"guid": "14134de4-dae7-4721-92df-e6e66e6cc733",
+							"title": "Chilean Peso Unidades de fomento"
+						},
+						{
+							"guid": "8589eae9-761f-45fc-abb6-5dcaac396ae1",
+							"title": "Lari"
+						},
+						{
+							"guid": "16e3a3d0-0abc-4e0b-be2a-9a64d01cfdfd",
+							"title": "Indian Rupee"
+						},
+						{
+							"guid": "980ca68c-57cc-403b-bc28-990f0190ae8d",
+							"title": "Rand"
+						}
+					]
+				},
+				{
+					"guid": "9af8404f-466b-4c7b-a0d7-f9a81b2c222c",
+					"title": "Home Loan Account",
+					"modules": [
+						{
+							"guid": "36e31baa-0627-4ee4-9323-d812da740c5b",
+							"title": "Syrian Pound"
+						},
+						{
+							"guid": "76d70077-c773-44b7-9e86-f764624f9413",
+							"title": "Pataca"
+						},
+						{
+							"guid": "26c3bdab-a801-40e6-aa65-cdff55901748",
+							"title": "New Zealand Dollar"
+						}
+					]
+				},
+				{
+					"guid": "0ae214ff-de45-4b2e-a894-950ac2b8e0dc",
+					"title": "Investment Account",
+					"modules": [
+						{
+							"guid": "944ae3e9-d30f-482f-9a33-a12a721ab804",
+							"title": "Barbados Dollar"
+						},
+						{
+							"guid": "b8a709d3-af16-459f-9168-6efd84138845",
+							"title": "Armenian Dram"
+						},
+						{
+							"guid": "2bd7cc88-f290-420e-ae17-7670a4fc7e30",
+							"title": "Bermudian Dollar (customarily known as Bermuda Dollar)"
+						},
+						{
+							"guid": "2cb18f12-956a-4355-8728-e6464203f053",
+							"title": "European Monetary Unit (E.M.U.-6)"
+						},
+						{
+							"guid": "81f3f9da-bbe1-4dc4-9a35-fd0cb15464a0",
+							"title": "Kina"
+						},
+						{
+							"guid": "53ba9db2-8aaa-4798-b57e-2506ae5f8ae3",
+							"title": "Pula"
+						},
+						{
+							"guid": "0a9fc27a-18ef-4907-9568-179357da8cca",
+							"title": "Rwanda Franc"
+						},
+						{
+							"guid": "be67ff13-f225-44a8-b6e3-a5b913f907d6",
+							"title": "Kwacha"
+						},
+						{
+							"guid": "81d9f1e0-fe3f-467f-9e59-0c9b3f65e6d7",
+							"title": "Yen"
+						},
+						{
+							"guid": "5dc728a9-4eca-4001-8a5b-b85dd52a735d",
+							"title": "Cape Verde Escudo"
+						}
+					]
+				},
+				{
+					"guid": "ba317189-e1ae-43ad-a748-3d0f13195fd1",
+					"title": "Checking Account",
+					"modules": [
+						{
+							"guid": "0644fcbd-3a87-4f53-9037-17a2d4b15450",
+							"title": "Bolivar Fuerte"
+						},
+						{
+							"guid": "6716c2f6-5e3e-43ae-a664-cc5330f70575",
+							"title": "Kwacha"
+						},
+						{
+							"guid": "8b15f7f5-1992-4fd5-9307-24844f53f6c3",
+							"title": "Chilean Peso Unidades de fomento"
+						},
+						{
+							"guid": "2902112f-e349-4a7b-87c9-f4af04e1c969",
+							"title": "Congolese Franc"
+						},
+						{
+							"guid": "21504f3d-18cc-4417-9237-7a48c9ff09d9",
+							"title": "Zimbabwe Dollar"
+						},
+						{
+							"guid": "db9e1b3d-e53b-4281-883d-c126bda420ec",
+							"title": "Bahraini Dinar"
+						},
+						{
+							"guid": "050e8309-3726-494a-b2bc-3adfc3238d70",
+							"title": "Yuan Renminbi"
+						},
+						{
+							"guid": "32279046-bd73-40a2-9a06-805b80986a51",
+							"title": "Dobra"
+						},
+						{
+							"guid": "80607d93-b6f9-432d-a7ba-7e2441d70187",
+							"title": "Somoni"
+						}
+					]
+				},
+				{
+					"guid": "95cabd36-e470-4fce-b788-25e30f1defa9",
+					"title": "Savings Account",
+					"modules": [
+						{
+							"guid": "0521317c-f787-4f76-8c41-e96de368aba3",
+							"title": "Cordoba Oro"
+						},
+						{
+							"guid": "67f3ced4-483f-49e8-9c9e-f48c422013ab",
+							"title": "Cape Verde Escudo"
+						},
+						{
+							"guid": "e8a2cfce-4aaf-406d-a857-1eca9c4317a6",
+							"title": "Convertible Marks"
+						},
+						{
+							"guid": "ca16d9c1-ccb6-4afe-aa7d-fea6c7d44277",
+							"title": "Tunisian Dinar"
+						},
+						{
+							"guid": "d136ea8f-f65f-4520-a542-94520a78c763",
+							"title": "CFA Franc BEAC"
+						},
+						{
+							"guid": "17db5306-d912-43b4-8e84-0b5884863f8b",
+							"title": "Congolese Franc"
+						},
+						{
+							"guid": "334ee4f8-5ce4-4bbf-bfe2-77eb18629890",
+							"title": "Dobra"
+						},
+						{
+							"guid": "0aecb32b-635e-48b0-8083-a319dc213495",
+							"title": "European Unit of Account 17(E.U.A.-17)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "High priority",
+			"key": "high_priority",
+			"courses": [
+				{
+					"guid": "6d56133b-80b1-4166-9ad2-b09a6b3fa04d",
+					"title": "Auto Loan Account",
+					"modules": [
+						{
+							"guid": "a397781f-f0f4-4c51-9462-a977d0cea91e",
+							"title": "Djibouti Franc"
+						},
+						{
+							"guid": "c66bf76e-3471-4aa3-a090-b49fd985afd3",
+							"title": "Bolivar Fuerte"
+						},
+						{
+							"guid": "6e8d6c2d-3bff-47e1-b78d-e1297f425021",
+							"title": "Kenyan Shilling"
+						},
+						{
+							"guid": "3fd46713-c547-4149-a3cb-2bbf522c9772",
+							"title": "Bahraini Dinar"
+						}
+					]
+				},
+				{
+					"guid": "f4f468ba-4eeb-40d5-8187-78df5a4c2d10",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "139261dc-bf3f-4c4b-9320-d8cdf943230e",
+							"title": "Iranian Rial"
+						},
+						{
+							"guid": "2539a58a-6fdf-40f3-8259-2faacd63ef4d",
+							"title": "Uganda Shilling"
+						},
+						{
+							"guid": "cf8b4c2e-5443-4713-9869-8bab320f804a",
+							"title": "Bulgarian Lev"
+						},
+						{
+							"guid": "2620b231-f761-4052-88ee-12253d7f18f8",
+							"title": "Djibouti Franc"
+						}
+					]
+				},
+				{
+					"guid": "21c15512-521e-4ac0-8512-3bc4fdf92804",
+					"title": "Savings Account",
+					"modules": [
+						{
+							"guid": "d518c717-52e2-455e-b7c1-3014eb978fdd",
+							"title": "Vatu"
+						},
+						{
+							"guid": "181de9dd-7253-4ff4-8bd8-50b914b17953",
+							"title": "Vatu"
+						},
+						{
+							"guid": "2b3993b0-3823-437b-8db2-9fc1e9ffc7c9",
+							"title": "North Korean Won"
+						},
+						{
+							"guid": "083df5e8-7cf0-44fa-9d19-926e3f8747d3",
+							"title": "Somali Shilling"
+						},
+						{
+							"guid": "dc828cb4-f561-4d03-9b27-40685ecc23a7",
+							"title": "Iranian Rial"
+						},
+						{
+							"guid": "40484bc3-3000-4784-94b4-bc8eb90ca55c",
+							"title": "Dalasi"
+						},
+						{
+							"guid": "216f72a7-44b6-41da-8612-0ab11eadf767",
+							"title": "Bahraini Dinar"
+						},
+						{
+							"guid": "0e835433-abc3-4e80-af3f-465ea9f33557",
+							"title": "Kroon"
+						}
+					]
+				},
+				{
+					"guid": "333c13da-02b0-43f6-a788-50aee7ec51ce",
+					"title": "Personal Loan Account",
+					"modules": [
+						{
+							"guid": "71c2eb4a-7f15-4a27-a786-682322788ba6",
+							"title": "Iraqi Dinar"
+						},
+						{
+							"guid": "b04bbbfe-b228-45b0-b4d3-6218b8b090a1",
+							"title": "US Dollar"
+						},
+						{
+							"guid": "deeeb4d5-5b4d-4b5f-97fb-f80899d59de0",
+							"title": "Serbian Dinar"
+						}
+					]
+				},
+				{
+					"guid": "e784b571-7216-434a-a25a-6139724bb6c3",
+					"title": "Investment Account",
+					"modules": [
+						{
+							"guid": "e0ae5940-6230-47de-a76a-b822f5665ef4",
+							"title": "Bermudian Dollar (customarily known as Bermuda Dollar)"
+						},
+						{
+							"guid": "482d3768-fdb7-416f-9035-6ef749afea84",
+							"title": "Bond Markets Units European Composite Unit (EURCO)"
+						},
+						{
+							"guid": "f4a273c4-61e6-49ea-9302-f0fd111605dd",
+							"title": "Sri Lanka Rupee"
+						},
+						{
+							"guid": "31509055-8764-498b-aade-a282eed54337",
+							"title": "Croatian Kuna"
+						},
+						{
+							"guid": "e5f5e402-2999-4ff8-aa8a-ddaae275c6b6",
+							"title": "El Salvador Colon US Dollar"
+						},
+						{
+							"guid": "e9cb5c8c-3226-4379-89b4-0c34fbaa1406",
+							"title": "Kyat"
+						},
+						{
+							"guid": "5bca2165-7284-4b53-a8de-109bfbd0ff7a",
+							"title": "Swiss Franc"
+						},
+						{
+							"guid": "3f49e6db-6119-4775-bd1d-9883bc77fdba",
+							"title": "European Unit of Account 17(E.U.A.-17)"
+						}
+					]
+				},
+				{
+					"guid": "7833184f-f2b7-4896-8829-3cf82518b5b2",
+					"title": "Auto Loan Account",
+					"modules": [
+						{
+							"guid": "185bd98b-ca6f-4a58-961d-3a54c37b734f",
+							"title": "Indian Rupee"
+						},
+						{
+							"guid": "c3140971-e0ac-4853-99d3-0c5b58bc81b4",
+							"title": "Hong Kong Dollar"
+						},
+						{
+							"guid": "35b3e0fa-48e8-4475-aeb4-ff21aaa3ddb8",
+							"title": "Swiss Franc"
+						},
+						{
+							"guid": "ae3390c6-1514-4bb1-9529-e69b27bf2835",
+							"title": "Bahraini Dinar"
+						},
+						{
+							"guid": "d10bcf7c-48c4-40d8-9ce1-47e7d3e23bf4",
+							"title": "Pataca"
+						},
+						{
+							"guid": "74620147-d1b5-4bdc-8753-284a19b92b1f",
+							"title": "Croatian Kuna"
+						},
+						{
+							"guid": "66d61c63-e14c-4e34-8ad7-083ed3a07bfc",
+							"title": "Zambian Kwacha"
+						}
+					]
+				},
+				{
+					"guid": "b81c02b4-ca16-4346-86dd-a1d0aa16eeb1",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "4fab9d54-b9ed-4fbc-8db5-92a51e7fdad9",
+							"title": "Yemeni Rial"
+						},
+						{
+							"guid": "9ed6bc84-e320-4b31-927c-b7b4d338fefc",
+							"title": "CFA Franc BEAC"
+						},
+						{
+							"guid": "4131e350-2d7f-488f-a46c-7ea0376a8cd3",
+							"title": "Belarussian Ruble"
+						},
+						{
+							"guid": "ed4ee459-4609-4f06-b0b0-4cc193aa10db",
+							"title": "El Salvador Colon US Dollar"
+						},
+						{
+							"guid": "5b3aa856-04b6-477d-9420-c2665aeba3da",
+							"title": "Tanzanian Shilling"
+						},
+						{
+							"guid": "028f1c4b-2999-42c8-adaf-d7cad00841be",
+							"title": "Moldovan Leu"
+						},
+						{
+							"guid": "604ee8e0-7b3f-4c27-a448-101c0f81f08f",
+							"title": "European Unit of Account 17(E.U.A.-17)"
+						}
+					]
+				},
+				{
+					"guid": "52c60100-f7ac-4915-aac7-4efc85caac21",
+					"title": "Checking Account",
+					"modules": [
+						{
+							"guid": "bec75ab9-c255-4f00-b1d8-9887eb3fe0e5",
+							"title": "Zambian Kwacha"
+						},
+						{
+							"guid": "bf649131-c2e0-47fe-8d62-56306e394f9c",
+							"title": "Balboa US Dollar"
+						},
+						{
+							"guid": "a8c9cc69-bf3a-4fdd-a528-6a5867747087",
+							"title": "Bond Markets Units European Composite Unit (EURCO)"
+						},
+						{
+							"guid": "91662b3f-da22-46b0-a19d-460779b247b9",
+							"title": "Jordanian Dinar"
+						},
+						{
+							"guid": "d2ed3c2d-b76f-403c-828f-9ec47c97cdc2",
+							"title": "Cuban Peso Peso Convertible"
+						},
+						{
+							"guid": "a77705ef-20d8-41e9-a030-cc099db5d654",
+							"title": "New Leu"
+						},
+						{
+							"guid": "27846b75-ce75-4ec0-9b6e-83bfddf7768e",
+							"title": "Dalasi"
+						},
+						{
+							"guid": "eb00e1b7-cdf0-4402-a336-0ade663bba9c",
+							"title": "Lebanese Pound"
+						},
+						{
+							"guid": "95880245-71a1-4e25-91d0-96103acc56f9",
+							"title": "Metical"
+						}
+					]
+				},
+				{
+					"guid": "952cfc44-a1cb-43a1-ac33-50b4e460cd36",
+					"title": "Savings Account",
+					"modules": [
+						{
+							"guid": "25a61762-bee2-481a-bb2c-dce4dc842c12",
+							"title": "Rupiah"
+						},
+						{
+							"guid": "07beef44-15a3-440b-ab5a-90bb857e05ed",
+							"title": "Pound Sterling"
+						},
+						{
+							"guid": "8c75b8bc-3885-48cc-92bb-2c9e26c4e86f",
+							"title": "Indian Rupee Ngultrum"
+						},
+						{
+							"guid": "891ddde4-fcb3-48f6-b4db-cf39764d7eee",
+							"title": "Pound Sterling"
+						},
+						{
+							"guid": "8658f83e-6b9e-4b4a-905f-0f8a1bca2177",
+							"title": "Moroccan Dirham"
+						},
+						{
+							"guid": "64bb627f-5005-442c-8e6b-f50d6846bde3",
+							"title": "Somoni"
+						},
+						{
+							"guid": "e79fb40c-591a-4d0b-91b8-586b4dd45309",
+							"title": "Codes specifically reserved for testing purposes"
+						},
+						{
+							"guid": "a53347d2-d71c-4665-9344-6965b49a11c6",
+							"title": "Kroon"
+						}
+					]
+				},
+				{
+					"guid": "e3f931ce-776c-4043-9125-8e50ee51d4a2",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "a6ec5094-6b54-412d-853f-5cb3fbb239ed",
+							"title": "Bulgarian Lev"
+						},
+						{
+							"guid": "010cff37-60e7-489a-8756-55558d3160f1",
+							"title": "Trinidad and Tobago Dollar"
+						},
+						{
+							"guid": "bab98726-e9fa-46d8-aa64-ae7bc511b66f",
+							"title": "Nuevo Sol"
+						},
+						{
+							"guid": "bc4811a0-ce8a-4f1e-abf0-d8d7397a25c1",
+							"title": "CFA Franc BCEAO"
+						},
+						{
+							"guid": "0b37d836-b022-4314-bbd5-f9546a99b9cd",
+							"title": "Dalasi"
+						},
+						{
+							"guid": "6829db73-e310-4ce9-84d0-91ff62726060",
+							"title": "Guinea Franc"
+						},
+						{
+							"guid": "3c7e8d2e-7599-497a-a7f6-78b3a2a60ea8",
+							"title": "Russian Ruble"
+						},
+						{
+							"guid": "b53bfc72-5feb-4c8c-8523-800124d3df47",
+							"title": "Pound Sterling"
+						},
+						{
+							"guid": "67454665-77c8-4b76-834e-45ccd90ff408",
+							"title": "Swiss Franc"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Ready to release",
+			"key": "ready_to_release",
+			"courses": [
+				{
+					"guid": "630868ac-f0df-4411-9276-29e63a4fe32d",
+					"title": "Auto Loan Account",
+					"modules": [
+						{
+							"guid": "ee1d26fd-6bb7-4693-bca6-82f4ce55caaf",
+							"title": "Qatari Rial"
+						},
+						{
+							"guid": "4ee56264-7705-4a74-be84-d10498c691c1",
+							"title": "Palladium"
+						},
+						{
+							"guid": "406164bc-3258-4888-a53a-a58d45459e61",
+							"title": "Lilangeni"
+						},
+						{
+							"guid": "caa8fdd3-da41-4c88-90c7-d6f3770f9770",
+							"title": "Forint"
+						},
+						{
+							"guid": "19ea1960-cc1d-423b-ad6e-9e809b83dcae",
+							"title": "Brunei Dollar"
+						}
+					]
+				},
+				{
+					"guid": "a79f35a1-3c5b-40e6-81b0-f14c8d08ebae",
+					"title": "Home Loan Account",
+					"modules": [
+						{
+							"guid": "d89bc475-15bc-4966-a7a1-1e105edf0329",
+							"title": "Gold"
+						},
+						{
+							"guid": "2b32e046-cc02-486c-ada2-76a63dd6fe38",
+							"title": "Convertible Marks"
+						},
+						{
+							"guid": "3d509836-2bc2-432f-8179-02e051773046",
+							"title": "Malaysian Ringgit"
+						},
+						{
+							"guid": "b8cfa1a7-72ce-42a2-b5cc-f888c44aaeeb",
+							"title": "Rufiyaa"
+						},
+						{
+							"guid": "2e1b51a2-7bd1-4d13-831d-1badbece4c8b",
+							"title": "Serbian Dinar"
+						},
+						{
+							"guid": "a40d256a-74b7-4d7b-bfa1-327de3cf8d8c",
+							"title": "Rand"
+						}
+					]
+				},
+				{
+					"guid": "249e2db5-8bad-46cb-b54d-82f5ace6d234",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "3de237ac-ef5e-41e3-8bf5-a86a6b3b27ee",
+							"title": "Bahraini Dinar"
+						},
+						{
+							"guid": "f0336e4c-0fdc-4ee2-aa0a-c6b185c7e027",
+							"title": "Iceland Krona"
+						},
+						{
+							"guid": "67370b53-a031-4e8a-8d3d-c1a92e8c583c",
+							"title": "Som"
+						},
+						{
+							"guid": "83db7b41-527c-4f3b-b6c2-3661d0172dab",
+							"title": "Indian Rupee"
+						},
+						{
+							"guid": "545bbd97-9d51-4d1b-a78a-539bde16d449",
+							"title": "CFA Franc BCEAO"
+						},
+						{
+							"guid": "da6c5276-6424-49a1-8f40-d11a5f790bc9",
+							"title": "Belize Dollar"
+						}
+					]
+				},
+				{
+					"guid": "eef59c06-b034-4331-87ef-6025c2c89ddc",
+					"title": "Investment Account",
+					"modules": [
+						{
+							"guid": "d2799c68-e6d5-4892-9741-353931c9867d",
+							"title": "Kwanza"
+						},
+						{
+							"guid": "bda2ba9a-dc07-4608-8f08-17db237262a3",
+							"title": "Lebanese Pound"
+						},
+						{
+							"guid": "be2a134c-f288-4b2f-9e25-7fd64f1e9c9c",
+							"title": "Canadian Dollar"
+						},
+						{
+							"guid": "a79ff025-42b9-47f7-9df4-7b2e7517c634",
+							"title": "Congolese Franc"
+						},
+						{
+							"guid": "a2b8aabb-44ef-47bf-83ab-f1a01e76f13c",
+							"title": "Rwanda Franc"
+						},
+						{
+							"guid": "19b9253e-5206-4917-9af6-36f39db5bd3b",
+							"title": "Barbados Dollar"
+						}
+					]
+				},
+				{
+					"guid": "edf95318-f81d-40e3-9011-082fe84a7d44",
+					"title": "Checking Account",
+					"modules": [
+						{
+							"guid": "f742acfc-43b5-406c-9b10-0857cf94ba58",
+							"title": "Brazilian Real"
+						},
+						{
+							"guid": "68c7eb4f-fd04-4612-b3e7-abc8d1899343",
+							"title": "SDR"
+						},
+						{
+							"guid": "21c91c19-0e59-46f6-aa26-1d123aa75845",
+							"title": "Metical"
+						}
+					]
+				},
+				{
+					"guid": "4dd8e23b-5168-444a-8a2c-7cf342871eca",
+					"title": "Checking Account",
+					"modules": [
+						{
+							"guid": "7989c55c-6d93-43f3-bb1c-d0b5597875d4",
+							"title": "Ouguiya"
+						},
+						{
+							"guid": "1ff64254-d608-4911-8fd4-eb9d856794e0",
+							"title": "North Korean Won"
+						},
+						{
+							"guid": "9f651d68-8ba4-4927-a7c9-8e962350ffd2",
+							"title": "Rand"
+						},
+						{
+							"guid": "ae12dbfc-b28e-4992-a244-0f20f19d06bc",
+							"title": "Manat"
+						},
+						{
+							"guid": "c3623bbf-cd83-4ef7-bf5f-18ed138a63a3",
+							"title": "CFA Franc BEAC"
+						},
+						{
+							"guid": "08a9adb2-95b3-46a9-b288-48c2170a6248",
+							"title": "Metical"
+						},
+						{
+							"guid": "391bb144-3c29-4067-9fde-b1f19e3217c2",
+							"title": "Naira"
+						},
+						{
+							"guid": "bed67a4d-33be-4077-9dc7-f87af54e4625",
+							"title": "Cape Verde Escudo"
+						}
+					]
+				},
+				{
+					"guid": "8861da47-4681-4dcd-84c4-e96989b26e28",
+					"title": "Investment Account",
+					"modules": [
+						{
+							"guid": "13457e71-e7b7-417a-8327-a434b7bc2bb8",
+							"title": "New Israeli Sheqel"
+						},
+						{
+							"guid": "d28d8490-2355-45aa-95d4-9265d44bc779",
+							"title": "Peso Uruguayo Uruguay Peso en Unidades Indexadas"
+						},
+						{
+							"guid": "5c5676af-0476-45ef-9043-11cab7dd7af0",
+							"title": "Somoni"
+						},
+						{
+							"guid": "e14254a7-e1ee-4351-99a0-bd1dcb964702",
+							"title": "Dobra"
+						},
+						{
+							"guid": "e1290f70-fa5e-4a9c-a193-50f2e7563b46",
+							"title": "Denar"
+						},
+						{
+							"guid": "80ca5916-1cc9-4b07-9f70-a83fec51d22e",
+							"title": "Uzbekistan Sum"
+						},
+						{
+							"guid": "8bf9170a-5b3f-4105-92c5-0d4bf3b261fc",
+							"title": "Rial Omani"
+						},
+						{
+							"guid": "ec43da72-8603-46dd-9507-313c1f480d60",
+							"title": "Dalasi"
+						}
+					]
+				},
+				{
+					"guid": "e3f931ce-776c-4043-9125-8e50ee51d4a2",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "454839d6-1fc1-41c5-ae1c-349322c91fd3",
+							"title": "Argentine Peso"
+						},
+						{
+							"guid": "bc060a15-dfaf-4eb8-8321-0d017ee30b7d",
+							"title": "Aruban Guilder"
+						},
+						{
+							"guid": "3f3c449e-aea6-4412-baaf-a5bd82c4c42e",
+							"title": "Barbados Dollar"
+						},
+						{
+							"guid": "6f383058-4e97-49e8-9b42-34ef6034c9d6",
+							"title": "Indian Rupee Ngultrum"
+						}
+					]
+				},
+				{
+					"guid": "eee868bb-4feb-4c98-8834-583693b313f1",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "62d54643-56aa-428d-94e5-8155258ebff7",
+							"title": "Kip"
+						},
+						{
+							"guid": "468fec4f-007a-412e-baed-0ee8f2452767",
+							"title": "Tanzanian Shilling"
+						},
+						{
+							"guid": "faaeef1f-87a0-477b-af3d-1683222d43e5",
+							"title": "Manat"
+						},
+						{
+							"guid": "3230d218-b988-4841-a464-102fbd19048b",
+							"title": "UAE Dirham"
+						},
+						{
+							"guid": "379a1ad2-ee0d-42e6-8636-a8c84a38034c",
+							"title": "Azerbaijanian Manat"
+						},
+						{
+							"guid": "23a93e5a-2b0a-4227-8c8f-c966caa9d75d",
+							"title": "Hong Kong Dollar"
+						},
+						{
+							"guid": "6b449683-2e69-4498-a761-84d04b16a6ea",
+							"title": "European Unit of Account 9(E.U.A.-9)"
+						},
+						{
+							"guid": "62c1aef7-cbf5-478c-9de8-7ab986140c3b",
+							"title": "Riel"
+						},
+						{
+							"guid": "7998500a-d735-435b-8368-265ea45f8d2e",
+							"title": "Barbados Dollar"
+						}
+					]
+				},
+				{
+					"guid": "5dd4e813-e65b-4c3c-994d-2e13adc1f739",
+					"title": "Savings Account",
+					"modules": [
+						{
+							"guid": "8652575b-d144-488c-9496-2e6636cb83d1",
+							"title": "Trinidad and Tobago Dollar"
+						},
+						{
+							"guid": "90b3e0ee-2b43-45b3-a027-c7dfb7ec2b63",
+							"title": "Belarussian Ruble"
+						},
+						{
+							"guid": "9244fc89-ff65-49aa-8399-8ee7bbe39e85",
+							"title": "Aruban Guilder"
+						},
+						{
+							"guid": "e9dd87f6-11bb-4076-886b-720940483b37",
+							"title": "SDR"
+						},
+						{
+							"guid": "de570fb8-6086-47d7-8372-b878fc8ea905",
+							"title": "New Taiwan Dollar"
+						},
+						{
+							"guid": "6aa4108d-b592-4ae9-b922-12f8faf758b1",
+							"title": "Iceland Krona"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Done",
+			"key": "done",
+			"courses": [
+				{
+					"guid": "e80bf4f5-ef0b-446c-ab6e-0f31585b55fb",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "94d604fa-afef-4bee-9e4d-b9980eb7cd65",
+							"title": "Kuwaiti Dinar"
+						},
+						{
+							"guid": "c02f082f-731c-4270-bad6-506f1ea9d721",
+							"title": "Canadian Dollar"
+						},
+						{
+							"guid": "d33f43b5-8493-4278-848d-c16cfd46d8d5",
+							"title": "Kyat"
+						},
+						{
+							"guid": "adbd1d28-21f7-4ead-ae57-b9d83ab188a5",
+							"title": "Brazilian Real"
+						},
+						{
+							"guid": "58937dbe-5d10-4299-9dbf-9a5aa01c69f2",
+							"title": "Kenyan Shilling"
+						},
+						{
+							"guid": "f0881fa1-d1cb-44b1-a042-6a178eeb6b96",
+							"title": "El Salvador Colon US Dollar"
+						},
+						{
+							"guid": "344be2a3-bce1-4824-94f4-ee6aa9542ac0",
+							"title": "Yuan Renminbi"
+						},
+						{
+							"guid": "442977d6-8455-41a5-a33e-7163cb120e4c",
+							"title": "Tunisian Dinar"
+						},
+						{
+							"guid": "0cb41ba5-a5c0-4a23-a6e2-804c29b2eb89",
+							"title": "Kwacha"
+						},
+						{
+							"guid": "c3009dc6-092b-405a-a7a9-bfbda85564a5",
+							"title": "Hryvnia"
+						}
+					]
+				},
+				{
+					"guid": "6ff7b355-c6ac-4bd7-8afd-249871207986",
+					"title": "Personal Loan Account",
+					"modules": [
+						{
+							"guid": "96b517a4-06fb-4981-b008-a0b3462efbfd",
+							"title": "Platinum"
+						},
+						{
+							"guid": "768e2da7-ff9f-42b3-8181-dbef95ff1028",
+							"title": "Libyan Dinar"
+						},
+						{
+							"guid": "c238aeb9-e264-40d2-82f0-1e6325c9e4de",
+							"title": "Dalasi"
+						}
+					]
+				},
+				{
+					"guid": "630868ac-f0df-4411-9276-29e63a4fe32d",
+					"title": "Auto Loan Account",
+					"modules": [
+						{
+							"guid": "830b013d-e0ff-4de4-88ee-bca60a191956",
+							"title": "CFA Franc BCEAO"
+						},
+						{
+							"guid": "6d4384fb-fd81-406f-96a6-4ec5a21cc56f",
+							"title": "Indian Rupee"
+						},
+						{
+							"guid": "aea3d7a4-d820-416d-b5ab-cbf3f24518c0",
+							"title": "Colombian Peso Unidad de Valor Real"
+						},
+						{
+							"guid": "a23da472-7ca3-49a0-9dac-540e4fa99b27",
+							"title": "Platinum"
+						},
+						{
+							"guid": "1b5d67cb-d983-4a00-842d-5b854edbf251",
+							"title": "Silver"
+						},
+						{
+							"guid": "25808ed9-952c-4761-9e9f-0fad850ff830",
+							"title": "Bahamian Dollar"
+						},
+						{
+							"guid": "64c333a0-d54d-484d-931f-20bb6a0d8ea2",
+							"title": "Lek"
+						},
+						{
+							"guid": "df40f042-47ef-4bfe-977a-e0b562d77534",
+							"title": "Codes specifically reserved for testing purposes"
+						},
+						{
+							"guid": "f3d32dd1-75c6-4e27-a016-e4745113b0f5",
+							"title": "Zimbabwe Dollar"
+						},
+						{
+							"guid": "2a0977cc-37be-4af5-b996-3dfdf70f1ebf",
+							"title": "Congolese Franc"
+						}
+					]
+				},
+				{
+					"guid": "eccf6b10-8051-4860-aab5-d21a75a8a541",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "b6e68085-e90d-4997-b20e-52aab2e4bf88",
+							"title": "Yemeni Rial"
+						},
+						{
+							"guid": "77913c63-cbc5-4a96-838b-1906e6401a1c",
+							"title": "Aruban Guilder"
+						},
+						{
+							"guid": "552961af-8105-4285-8587-07e6168c299e",
+							"title": "New Taiwan Dollar"
+						},
+						{
+							"guid": "a3aadd45-3b7f-4cb9-9848-ef11879ab51a",
+							"title": "Platinum"
+						},
+						{
+							"guid": "1d6ff7ed-a50b-48a8-a424-211efd58c237",
+							"title": "New Leu"
+						},
+						{
+							"guid": "e2dce13f-fdcf-41c8-8dd8-2fee1f547b54",
+							"title": "Iceland Krona"
+						},
+						{
+							"guid": "ac93994e-0123-4dca-8bba-cae682412cda",
+							"title": "Kip"
+						},
+						{
+							"guid": "83a96f2e-5baf-4818-b59b-fa4c2f1c6c7d",
+							"title": "Dobra"
+						},
+						{
+							"guid": "6323ae69-e6af-4b87-b3c7-07545c86ef35",
+							"title": "Rufiyaa"
+						}
+					]
+				},
+				{
+					"guid": "9af8404f-466b-4c7b-a0d7-f9a81b2c222c",
+					"title": "Home Loan Account",
+					"modules": [
+						{
+							"guid": "8f72fa43-4b04-419a-9b87-2563969d5f5e",
+							"title": "Cuban Peso Peso Convertible"
+						},
+						{
+							"guid": "a628b7d4-44b8-4eae-b1e5-adb2c1a3e9fa",
+							"title": "Cedi"
+						},
+						{
+							"guid": "3ed5d260-faa3-4f44-b5f3-4292b6304799",
+							"title": "Belize Dollar"
+						},
+						{
+							"guid": "435f6ac4-d155-4e4c-bd78-bf101a45097a",
+							"title": "Chilean Peso Unidades de fomento"
+						},
+						{
+							"guid": "e5cc01a4-2965-474f-a24e-b0e3f49eb949",
+							"title": "Taka"
+						},
+						{
+							"guid": "5026df6e-5338-4fb4-8305-cd49a895f0fd",
+							"title": "Convertible Marks"
+						},
+						{
+							"guid": "8f9762a8-3ad9-438e-b8c9-74f197ccfb56",
+							"title": "Tala"
+						},
+						{
+							"guid": "2832e9bd-c7cf-4a8a-8d0e-353057f93f15",
+							"title": "Nepalese Rupee"
+						},
+						{
+							"guid": "40542cac-d382-42f7-abd8-ffb6d65c1bd3",
+							"title": "Cordoba Oro"
+						},
+						{
+							"guid": "09e54989-aeec-48b7-b6cf-e5da2e6f158a",
+							"title": "Gibraltar Pound"
+						}
+					]
+				},
+				{
+					"guid": "40ba3f3b-791f-4396-8e88-5492160e98c0",
+					"title": "Investment Account",
+					"modules": [
+						{
+							"guid": "c36bfc8b-2e37-43b2-b41a-cbf7ffd9dfd8",
+							"title": "Norwegian Krone"
+						},
+						{
+							"guid": "77fb1ac8-5f92-4b1a-bc1a-bab7199b69cc",
+							"title": "Yemeni Rial"
+						},
+						{
+							"guid": "e62bff20-afcc-43d6-81ce-9729da3649de",
+							"title": "Leone"
+						},
+						{
+							"guid": "7eb118b1-cab3-4241-ab5c-559819289d62",
+							"title": "Balboa US Dollar"
+						},
+						{
+							"guid": "88114986-47ae-47d2-a1fd-4dff02630c49",
+							"title": "Tanzanian Shilling"
+						},
+						{
+							"guid": "3652df46-61ee-4628-b926-276d9c064e72",
+							"title": "Latvian Lats"
+						},
+						{
+							"guid": "5cb8d3c2-e137-4727-a274-ea841efd4e7a",
+							"title": "Rufiyaa"
+						},
+						{
+							"guid": "2122393a-cf43-484e-9cbd-5759a401c93d",
+							"title": "Lempira"
+						}
+					]
+				},
+				{
+					"guid": "60a351f8-d04a-46a8-94ca-2b186aca0a61",
+					"title": "Credit Card Account",
+					"modules": [
+						{
+							"guid": "5a662250-50ea-4912-a205-35cb2d119e77",
+							"title": "Mauritius Rupee"
+						},
+						{
+							"guid": "0aca0a04-d4e8-4271-9e67-ae7b8d02bea0",
+							"title": "Algerian Dinar"
+						},
+						{
+							"guid": "51f838c8-fa15-46ed-b892-55d82b8d1ab3",
+							"title": "Bolivar Fuerte"
+						},
+						{
+							"guid": "b4ba22d8-149a-4865-9727-f5b53845f206",
+							"title": "Dong"
+						},
+						{
+							"guid": "87299428-fdc4-438b-ae0e-6230f74e1784",
+							"title": "Pula"
+						},
+						{
+							"guid": "940dcc15-fc7f-4627-98a1-af669bb637e3",
+							"title": "US Dollar"
+						},
+						{
+							"guid": "6da06bad-471c-4d84-af26-9001c6ad6548",
+							"title": "Sudanese Pound"
+						},
+						{
+							"guid": "1358692e-14c1-4d9c-a148-ef1fa92873f2",
+							"title": "Tanzanian Shilling"
+						}
+					]
+				},
+				{
+					"guid": "026e193a-742e-4916-8f4f-3f313c24a88f",
+					"title": "Checking Account",
+					"modules": [
+						{
+							"guid": "53e7cbe2-aec9-41bf-83fb-685ed463bc10",
+							"title": "Belize Dollar"
+						},
+						{
+							"guid": "dc91fe81-11bc-402a-a77f-b560dbc1f03d",
+							"title": "Lebanese Pound"
+						},
+						{
+							"guid": "bca7449c-5e37-4e26-aaae-edcbbf37018c",
+							"title": "Zloty"
+						},
+						{
+							"guid": "476f20d4-32a8-4df1-976c-549d8c3d0253",
+							"title": "SDR"
+						},
+						{
+							"guid": "286e1d5a-e751-4a47-9697-e43b5a6a5db5",
+							"title": "Croatian Kuna"
+						},
+						{
+							"guid": "afd7f609-233d-43f7-a382-d817fa9e0624",
+							"title": "Danish Krone"
+						},
+						{
+							"guid": "ebc60f28-dba7-4b1e-8b2a-948e4f336ce0",
+							"title": "Jordanian Dinar"
+						},
+						{
+							"guid": "778a393d-af4f-4b37-bac4-ed4a9b1b7d21",
+							"title": "Bolivar Fuerte"
+						},
+						{
+							"guid": "d912b999-3808-4c18-8dca-6dd92acfead7",
+							"title": "Singapore Dollar"
+						},
+						{
+							"guid": "275d08f7-0edd-4064-8b44-6338bd68197c",
+							"title": "Norwegian Krone"
+						}
+					]
+				},
+				{
+					"guid": "e80bf4f5-ef0b-446c-ab6e-0f31585b55fb",
+					"title": "Money Market Account",
+					"modules": [
+						{
+							"guid": "a88f2f72-11c9-4d7d-867c-791139a8bb7e",
+							"title": "Mauritius Rupee"
+						},
+						{
+							"guid": "058db761-a005-4df0-9c9f-8ed3a1f34b8b",
+							"title": "SDR"
+						},
+						{
+							"guid": "9d01aa4b-8fe2-4944-b7e7-fa66f24c09e6",
+							"title": "Rand"
+						},
+						{
+							"guid": "722bbb43-686f-4971-a70e-1aedfa17a860",
+							"title": "Balboa US Dollar"
+						},
+						{
+							"guid": "65f803b0-b2b9-48f6-bb64-773a96259eb2",
+							"title": "Peso Uruguayo Uruguay Peso en Unidades Indexadas"
+						},
+						{
+							"guid": "8b373416-57c6-4dab-9cc6-c7ac6228d74c",
+							"title": "Forint"
+						},
+						{
+							"guid": "afb63a35-776f-496d-9eae-0c914a2a6463",
+							"title": "Zimbabwe Dollar"
+						}
+					]
+				},
+				{
+					"guid": "bded691f-3269-4b92-a011-7c06ceb7a9cb",
+					"title": "Home Loan Account",
+					"modules": [
+						{
+							"guid": "95a2daf7-3897-4008-b1d3-9fcc0a1098b3",
+							"title": "Croatian Kuna"
+						},
+						{
+							"guid": "c3822050-1b4e-4835-81bc-816b10e66e11",
+							"title": "Rwanda Franc"
+						},
+						{
+							"guid": "118cfc9e-1eba-40e3-a8e5-82a3045520ad",
+							"title": "Danish Krone"
+						},
+						{
+							"guid": "921dc9b4-72d0-4699-aa5c-a97ed497edf9",
+							"title": "Kwanza"
+						},
+						{
+							"guid": "d3f74831-af46-4b3c-b2e5-065c82deab08",
+							"title": "Gourde US Dollar"
+						},
+						{
+							"guid": "0e71421d-f245-4a92-9827-de1b3bc09463",
+							"title": "Brazilian Real"
+						},
+						{
+							"guid": "eb2b9698-e862-47bc-818d-02bf818bb54a",
+							"title": "Yuan Renminbi"
+						},
+						{
+							"guid": "2b044b18-664f-43d4-9133-ac45063fffbf",
+							"title": "Quetzal"
+						},
+						{
+							"guid": "a20dae2f-1868-428a-873c-f05e4dfe4901",
+							"title": "Cape Verde Escudo"
+						}
+					]
+				}
+			]
+		}
+	]
+}

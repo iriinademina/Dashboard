@@ -3,6 +3,7 @@ import course from "../components/Course/course.html";
 import module from "../components/Module/module.html";
 import stage from "../components/Stage/stage.html";
 import dashboard from "../components/Dashboard/dashboard.html";
+import sidebar from "../components/SideBar/sidebar.html";
 import { runInThisContext } from "vm";
 class App {
   constructor() {
@@ -17,13 +18,17 @@ class App {
 }
 
 //classes
+class Sidebar {
+  constructor() {}
+  renderSIdebar() {}
+}
 class Dashboard {
   constructor() {
     this.dashboardElem = null;
     this.stages = [];
   }
   render(stagesData) {
-    this.dashboardElement = `${dashboard}`;
+    this.dashboardElement.innerHTML = `${dashboard}`;
     this.dashboardElem = this.dashboardElement;
     this.stages = stagesData.map(
       dashData => new Stage(stagesData.guid, stagesData.title)
@@ -44,7 +49,7 @@ class Stage {
     this.stageElem = null;
   }
   renderStage() {
-    this.stageElement = `${stage}`;
+    this.stageElement.innerHTML = `${stage}`;
     this.stageElement.id = this.key;
     const stageTitle = stage.getElementsByClassName("column__header");
     stageTitle.textContent = this.title;
@@ -72,7 +77,7 @@ class Course {
     this.courseElement = null;
   }
   renderElement() {
-    this.courseElem = `${course}`;
+    this.courseElem.innerHTML = `${course}`;
     this.courseElem.id = this.guid;
     const courseTitle = course.getElementsByClassName("card__title")[0];
     courseTitle.textContent = this.title;
@@ -95,7 +100,7 @@ class Module {
     this.modulElement = null;
   }
   renderModule() {
-    this.modulElement = `${module}`;
+    this.modulElement.innerHTML = `${module}`;
     this.modulElement.textContent = this.title;
     this.modulElement.id = this.guid;
     return this.modulElement;
