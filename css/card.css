@@ -39,16 +39,16 @@ body {
 }
 
 .card__module:hover {
-  background: #9ddcce;
+  background: #ddf3ef;
   padding: 9pt 7pt;
   border-left: 5pt solid #00a79a;
   color: #00a79a;
   cursor: pointer;
 }
+
 .circle {
   margin-left: 15pt;
   border: 2pt solid red;
-  /* background: red; */
   border-radius: 100%;
   padding: 2pt;
 }
