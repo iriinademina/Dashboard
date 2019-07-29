@@ -6,11 +6,12 @@ import module from "../components/Module/module.html";
 import app from "../components/App/app.html";
 import dashboard from "../components/Dashboard/dashboard.html";
 import course from "../components/Course/course.html";
+import stage from "../components/Stage/stage.html";
 // import Course from "./draft";
 
 let cardModule = Array.from(document.getElementsByClassName("card"));
 /*  -- - -- - -*/
-console.log(cardModule);
+// console.log(cardModule);
 cardModule.forEach(item => (item.onclick = addSidebar));
 
 class App {
@@ -18,39 +19,85 @@ class App {
     let container = document.getElementsByClassName("gen-wrapper")[0];
     container.innerHTML = `${app}`;
     document.getElementsByClassName("wrapper")[0].innerHTML = 
-          `${dashboard}${course}`
-    // document.getElementsByClassName("card")[0].innerHTML = `${module}`
+          `${dashboard}${stage}`
     }
     init() {
         getData().then (data => {
-            let modules = data.reduce((acc, curr) => {
-                    return [
-                      ...acc,
-                      ...curr.modules
-                    ];
-                  }, []);
-            // test render one card
-            // console.log(modules[0].moduleTitle)
-            
-            let cards = data.map(item => item)
-            // console.log(cards)
-            // console.log(cards[0].courseTitle,cards[0].guid)
-            // console.log(cards[0].modules)
+            let copy1 = JSON.parse ( JSON.stringify ( data) )
+            let copy2 = JSON.parse ( JSON.stringify ( copy1) )
+            // console.log(copy)
 
-            // new Module(modules[0].moduleTitle,modules[0].guid).render()
-            new Course (cards[1].courseTitle,cards[1].guid).render(cards[1].modules)
+            // let modules = data.reduce((acc, curr) => {
+            //         return [
+            //           ...acc,
+            //           ...curr.modules
+            //         ];
+            //       }, []);
+            // // test render one card
+            // let cards = data.map(item => item)
+            // // new Module(modules[0].moduleTitle,modules[0].guid).render()
 
-        }
-     )
-    }
+
+            // All stateses 
+            let statuses = [
+                    ...new Set(
+                      copy1.reduce(
+                        (acc, curr) => [
+                          ...acc,
+                          ...curr.modules.map(item => item.moduleStatus.displayName)
+                        ],
+                        []
+                      )
+                    )
+                  ];
+                
+    // console.log(statuses[2]);
+    // console.log(data)
+
+    let stage0 = data.map(item => {
+                if (
+                  item.modules.some(
+                     (item1) => item1.moduleStatus.displayName === `${statuses[0]}`
+                  )
+                )
+                  return item
+            }).filter(Boolean)
+    
+    //  console.log(stage0[0].modules)
+    let copyStage0 = JSON.parse (JSON.stringify (stage0))
+    // console.log(copyStage0)
+    //все со статусом reject
+    // let stage0Modules = copyStage0.map( item => {
+    //      return [
+    //          item.courseTitle,
+    //          item.modules.filter(i => i.moduleStatus.displayName === `${statuses[0]}`)
+    //       ]
+    // })
+    // //     item.modules.filter(i => i.moduleStatus.displayName === `${statuses[0]}`))
+    // console.log(stage0Modules[1])
+
+        let stage0Obj = copyStage0.map (item => {
+              return {
+                  title: item.courseTitle,
+                  guid: item.guid,
+                  module: item.modules.filter(i => i.moduleStatus.displayName === `${statuses[0]}`)
+                }
+            })
+
+    console.log(stage0Obj)
+    new Stage ().render(stage0Obj)
+
+        //  new Course(stage0Obj.courseTitle,stage0Obj.guid).render(stage0Obj[5].module)
+
+    //     }
+      })
+ }
 }
-
 class Module {
-    constructor(moduleTitle,guid,i) {
+    constructor(moduleTitle,guid) {
         this.title = moduleTitle;
         this.guid = guid;
         this.modulElement = null;
-        this.i = i
     }
     render() {
         this.modulElement =`${module}`;
@@ -64,25 +111,55 @@ class Course {
       this.title = title;
       this.courseElem = null;
     }
+
     render(modules) {
       this.courseElem = `${course}`;
-      const card = document.getElementsByClassName('card')[0];
-      const cardTitle = document.getElementsByClassName('card__title')[0];
-      const cardsMods = document.getElementsByClassName('cards')[0];
+      let card = document.getElementsByClassName('card')[0];
+      let cardTitle = document.getElementsByClassName('card__title')[0];
+      // let cardsMods = document.querySelectorAll('.card')
+      // //console.log(cardsMods + 'dddddd');
       //   card.id = this.guid;
-      cardTitle.textContent = this.title;
+    //   cardTitle.textContent = this.title;
       modules.forEach((item,index) => { 
-          let card = new Module(item.moduleTitle,item.guid).render()
-          cardsMods.innerHTML += card
-          document.querySelectorAll('.card__module')[index].textContent = item.moduleTitle
+          let modul = new Module(item.moduleTitle,item.guid).render()
+          console.log(modul)
+
+          // let allmod = document.getElementsByClassName('.card')[0]
+          // allmod.innerHTML = modul
+        //   cardsMods.querySelectorAll('.card__module')[index].textContent = item.moduleTitle
       });
-       console.log(modules)
+       console.log( "course")
        return this.courseElem;
     }
   }
   
+  // Work with columns
+  class Stage {
+    constructor() {
+    //   this.key = key;
+    //   this.title = title;
+    //   this.elem = null;
+    //   this.i = i
+    }
+    render(columnData) {
+      this.elem = `${stage}`;
+      let courseTitle = document.getElementsByClassName("card__title")[0];
+      let column = document.getElementsByClassName('cards_container')[0];
+      columnData.forEach((item,index) => { 
+           let card = new Course(item.title,item.guid).render(item.module)
+           console.log(card)
+           column.innerHTML += card
+           let cardsMods = Array.from(document.querySelectorAll('.card__title'))
+           cardsMods[index].textContent = item.title
+        
+      });
+      console.log("stage")
+      console.log(this.elem)
+      return this.elem;
+    }
+  }
 
-let all = new App()
+const all = new App()
 all.init()
 
 
