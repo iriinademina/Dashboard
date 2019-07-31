@@ -10,7 +10,8 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  padding: 10px 0;
+  padding: 15px 0;
+  margin-bottom: 15px;
 }
 .sidebar__card-title {
   text-transform: uppercase;

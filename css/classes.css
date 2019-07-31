@@ -2,3 +2,9 @@
   display: none;
   transition: 2s;
 }
+.highlight {
+  background-color: #ddf3ef;
+  border-left: #00a79a;
+  color: #00a79a;
+  cursor: pointer;
+}

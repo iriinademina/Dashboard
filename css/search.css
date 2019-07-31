@@ -12,6 +12,10 @@
   border: none;
   position: relative;
 }
+.search > input:focus {
+  outline: none;
+  
+}
 .search > i {
   font-size: 14pt;
   color: #5a5a5a;
