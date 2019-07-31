@@ -35,10 +35,10 @@ class App {
           )
         )
       ];
-      console.log(statuses);
+      // console.log(statuses);
 
       // Array for dashboard
-      let arrDashboard = Array.from(statuses).map((iStatus) => {
+      let arrDashboard = Array.from(statuses).map(iStatus => {
         let arr = data
           .map(item => {
             if (
@@ -51,21 +51,22 @@ class App {
           .filter(Boolean);
         return arr.map(item => {
           return {
-            status : `${iStatus}`,
-            title:   item.courseTitle,
-            guid:    item.guid,
-            module:  item.modules.filter(
+            status: `${iStatus}`,
+            title: item.courseTitle,
+            guid: item.guid,
+            module: item.modules.filter(
               i => i.moduleStatus.displayName === `${iStatus}`
             )
           };
         });
       });
-      console.log(arrDashboard);
+      // console.log(arrDashboard);
+      let copy2 = JSON.parse(JSON.stringify(arrDashboard));
+      console.log(copy2)
       new Dashboard(this.wrapper).render(arrDashboard);
     });
   }
 }
-
 
 class Dashboard {
   constructor(container) {
@@ -75,35 +76,54 @@ class Dashboard {
   render(allData) {
     this.parent.innerHTML = `${dashboard}`;
     const dashboardContainer = this.parent.querySelector(".main");
-    allData.forEach(item => {
-      dashboardContainer.innerHTML += new Stage(dashboardContainer).render(
-        item
-      );
+    let arrStage=[]
+      allData.forEach((item,index) => {
+      arrStage.push(new Stage(dashboardContainer))
+      dashboardContainer.innerHTML += arrStage[index].render(item)
+      // console.log("render",item)
+      arrStage[index].addCards(item)
     });
+
   }
 }
-
 // Work with columns
 class Stage {
   constructor(container) {
     this.parent = container;
+    this._render = this.render.bind(this);
+    //  this.stageContainer = this.parent.querySelector(".column");
   }
 
+  // Work with start render
   render(columnData) {
+    // console.log("render",columnData1)
     this.parent.innerHTML = `${stage}`;
     const stageContainer = this.parent.querySelector(".column");
     const headerContainer = stageContainer.querySelector(".column__header");
     const cardsContainer = stageContainer.querySelector(".cards_container");
     headerContainer.textContent = `${columnData[0].status}`;
-    columnData.forEach(item => {
+    columnData.splice(0, 10).forEach(item => {
       cardsContainer.innerHTML += new Course(cardsContainer).render(item);
     });
-
     return this.parent.innerHTML;
   }
-}
 
-//Test for one column
+  //});
+
+  addCards(columnData) {
+    console.log("addcards",columnData)
+    let copy =  JSON.parse(JSON.stringify(columnData));
+    document.querySelectorAll(".column").forEach((item,index) => 
+        item.addEventListener("scroll", 
+        function (event) {
+            setTimeout ((columnData)=> {
+              console.log("columndata",columnData)
+           },300,columnData)
+          })
+     ),true
+      }
+    }
+
 class Course {
   constructor(container) {
     this.parent = container;
@@ -136,3 +156,5 @@ class Module {
 
 const all = new App();
 all.init();
+
+
