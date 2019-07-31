@@ -9,17 +9,13 @@ import course from "../components/Course/course.html";
 import stage from "../components/Stage/stage.html";
 // import Course from "./draft";
 
-let cardModule = Array.from(document.getElementsByClassName("card"));
-
-cardModule.forEach(item => (item.onclick = addSidebar));
-
 class App {
   constructor() {
     let container = document.getElementsByClassName("gen-wrapper")[0];
     container.innerHTML = `${app}`;
     this.wrapper = document.getElementsByClassName("wrapper")[0];
     const el = document.querySelector(".main");
-    console.log(el);
+    // console.log(el);
     const totalItem = document.getElementsByClassName("total-score")[0];
     totalItem.innerText = "XXX";
   }
@@ -39,7 +35,6 @@ class App {
           )
         )
       ];
-      // console.log(statuses);
 
       // Array for dashboard
       let arrDashboard = Array.from(statuses).map(iStatus => {
@@ -64,9 +59,7 @@ class App {
           };
         });
       });
-      // console.log(arrDashboard);
-      let copy2 = JSON.parse(JSON.stringify(arrDashboard));
-      console.log(copy2)
+      console.log(arrDashboard)
       new Dashboard(this.wrapper).render(arrDashboard);
     });
   }
@@ -80,59 +73,59 @@ class Dashboard {
   render(allData) {
     this.parent.innerHTML = `${dashboard}`;
     const dashboardContainer = this.parent.querySelector(".main");
-    let arrStage=[]
-      allData.forEach((item,index) => {
-      arrStage.push(new Stage(dashboardContainer))
-      dashboardContainer.innerHTML += arrStage[index].render(item)
-      // console.log("render",item)
-      arrStage[index].addCards(item)
+    let arrStage = [];
+    allData.forEach((item, index) => {
+      arrStage.push(new Stage(dashboardContainer, item));
+      dashboardContainer.innerHTML += arrStage[index].render();
     });
-
+    Array.from(dashboardContainer.getElementsByClassName("column")).forEach(
+      (i, index) => {
+        i.children[1].addEventListener("scroll", event => {
+          if (
+            +(event.target.scrollHeight - event.target.scrollTop).toFixed(0) ===
+            event.target.offsetHeight
+          ) {
+            setTimeout(() => {
+              allData[index].splice(0, 10).forEach(item => {
+                i.children[1].innerHTML += new Course(
+                  dashboardContainer.getElementsByClassName("cards_container")[
+                    index
+                  ]
+                ).render(item);
+              });
+            }, 1000);
+          }
+        });
+      }
+    );
+    return this.parent.innerHTML;
   }
 }
-// Work with columns
+
 class Stage {
-  constructor(container) {
+  constructor(container, item) {
     this.parent = container;
     this._render = this.render.bind(this);
-    //  this.stageContainer = this.parent.querySelector(".column");
+    this.columnData = item;
   }
 
-  // Work with start render
-  render(columnData) {
-    // console.log("render",columnData1)
+  render() {
     this.parent.innerHTML = `${stage}`;
     const stageContainer = this.parent.querySelector(".column");
     const headerContainer = stageContainer.querySelector(".column__header");
     const cardsContainer = stageContainer.querySelector(".cards_container");
-    headerContainer.textContent = `${columnData[0].status}`;
-    columnData.splice(0, 10).forEach(item => {
+    headerContainer.textContent = `${this.columnData[0].status}`;
+    this.columnData.splice(0, 10).forEach(item => {
       cardsContainer.innerHTML += new Course(cardsContainer).render(item);
     });
     return this.parent.innerHTML;
   }
-
-  //});
-
-  addCards(columnData) {
-    console.log("addcards",columnData)
-    let copy =  JSON.parse(JSON.stringify(columnData));
-    document.querySelectorAll(".column").forEach((item,index) => 
-        item.addEventListener("scroll", 
-        function (event) {
-            setTimeout ((columnData)=> {
-              console.log("columndata",columnData)
-           },300,columnData)
-          })
-     ),true
-      }
-    }
+}
 
 class Course {
   constructor(container) {
     this.parent = container;
   }
-
   render(modules) {
     this.parent.innerHTML = `${course}`;
     const cardContainer = this.parent.querySelector(".card");
