@@ -18,6 +18,10 @@ class App {
     let container = document.getElementsByClassName("gen-wrapper")[0];
     container.innerHTML = `${app}`;
     this.wrapper = document.getElementsByClassName("wrapper")[0];
+    const el = document.querySelector(".main");
+    console.log(el);
+    const totalItem = document.getElementsByClassName("total-score")[0];
+    totalItem.innerText = "XXX";
   }
 
   init() {
@@ -135,6 +139,7 @@ class Course {
     const cardTitleContainer = cardContainer.querySelector(".card__title");
     const cardsContainer = cardContainer.querySelector(".cards");
     cardTitleContainer.textContent = modules.title;
+    cardContainer.id = modules.guid;
     modules.module.forEach(item => {
       cardsContainer.innerHTML += new Module(cardsContainer).render(item);
     });
@@ -150,6 +155,7 @@ class Module {
     this.parent.innerHTML = `${moduleCard}`;
     const cardModuleContainer = this.parent.querySelector(".card__module");
     cardModuleContainer.textContent = moduleData.moduleTitle;
+    cardModuleContainer.id = moduleData.guid;
     return this.parent.innerHTML;
   }
 }

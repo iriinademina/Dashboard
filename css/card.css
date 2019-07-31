@@ -19,11 +19,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-.card__title > h3 {
-  font-weight: 800;
+  font-weight: 500;
   color: #575757;
+  font-size: 15pt;
+  padding: 25px 0;
 }
+
 .cards {
   width: 90%;
   display: grid;
@@ -36,6 +37,7 @@ body {
   padding: 9pt 7pt;
   border-left: 5pt solid #575757;
   color: #575757;
+  cursor: pointer;
 }
 
 .card__module:hover {
