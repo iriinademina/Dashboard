@@ -74,7 +74,7 @@ class App {
         });
       });
 
-      console.log(arrDashboard);
+      // console.log(arrDashboard);
       new Dashboard(this.wrapper).render(arrDashboard);
     });
     getData().then(data => {
@@ -83,6 +83,8 @@ class App {
       const totalItem = document.querySelector(".total-score");
       totalItem.innerText = data.length;
       const elementt = document.querySelectorAll(".card__module");
+      const sidebarElement = document.querySelectorAll(".sidebar__card");
+      console.log(sidebarElement);
 
       const main = document.querySelector(".main");
       const closeSidebarButton = document.querySelector(".close-button");
@@ -96,8 +98,10 @@ class App {
           e.classList.remove("highlight");
         });
       });
+      //console.log(elementt);
       elementt.forEach(element => {
         let guidOfmodule;
+
         element.addEventListener("click", e => {
           new Sidebar().show();
           guidOfmodule = e.target.dataset.guid;
@@ -112,7 +116,7 @@ class App {
           });
 
           const highlighted = document.querySelectorAll(".highlight");
-          console.log(".highlight");
+          // console.log(".highlight");
           console.log(highlighted);
           highlighted.forEach(e => {
             e.classList.remove("highlight");
@@ -126,10 +130,17 @@ class App {
           });
           console.log(elementsWithClickedGUID);
         });
-        const sidebarElement = document.querySelectorAll(".sidebar__card");
-        console.log(sidebarElement);
-        console.log("ffff");
       });
+      let ddd = document.querySelector("highlight");
+      console.log(ddd);
+      console.log("ddd");
+      // data.modules.forEach(e => {
+      //   e.addEventListener("click", f => {
+      //     // const highlightedElms = document.querySelectorAll(".highlight");
+      //     // highlightedElms.classList.remove("highlight");
+      //     // f.classList.add("highlight");
+      //   });
+      // });
     });
   }
 }
@@ -159,6 +170,7 @@ export class Sidebar {
     const courseTitle = data.courseTitle;
     this.sidebarHeadText.textContent = courseTitle;
     this.sidebar.dataset.guid = courseGUID;
+    console.log("modules");
     console.log(data.modules);
     data.modules.forEach(e => {
       this.sidebarCards.innerHTML += new SidebarCard(this.sidebarCards).render(

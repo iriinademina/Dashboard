@@ -1,4 +1,3 @@
-
 .sidebar__card {
   width: 100%;
   font-weight: 600;
@@ -12,15 +11,11 @@
   justify-content: space-around;
   padding: 15px 0;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 .sidebar__card-title {
   text-transform: uppercase;
 }
 .sidebar__card-stage {
   text-transform: lowercase;
-}
-.sidebar__card:hover {
-  background: #ddf3ef;
-  color: #00a79a;
-  cursor: pointer;
 }
