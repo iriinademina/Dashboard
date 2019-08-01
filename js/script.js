@@ -17,13 +17,7 @@ class App {
     container.innerHTML = `${app}`;
     this.wrapper = document.getElementsByClassName("wrapper")[0];
     const el = document.querySelector(".main");
-    console.log(el);
-
     const mainElement = document.getElementsByClassName("wrapper")[0];
-    console.log(mainElement);
-    // console.log(el);
-    const totalItem = document.querySelector(".total-score");
-    totalItem.innerText = "XXX";
   }
 
   /*async */ init() {
@@ -230,7 +224,7 @@ class Dashboard {
                   ]
                 ).render(item);
               });
-            }, 1000);
+            }, 600);
           }
         });
       }
